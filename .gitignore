@@ -27,6 +27,20 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env.development
+.env.production
+.env*
 
 # vercel
 .vercel
+
+
+# lock files
+yarn.lock
+package-lock.json
+
+# yarn
+.yarn
+
+# utils
+out.md
